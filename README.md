@@ -1,8 +1,8 @@
 # AWS S3 Java Api & React Client
 
-## A Java Spring application, using Spring-Boot to create a REST Web API, using Maven bootstrap. Perform HTTP Requests, over a TCP connection via a React front-end client, to perform operations against a AWS S3 Client and accompanying database, via the Java api.
+## A Java Spring application, using Spring-Boot framework to create a REST Web API, using Maven bootstrap. Perform HTTP Requests, over a TCP connection via a React front-end client, to perform operations against an AWS S3 Client and accompanying database, via the Java api.
 
-### Create a React client server for HTTP Requests to a Java API web server, in order to upload and download image files from a AWS S3 Bucket, corresponding specific user profiles. Update a in-memory database to collect all the files and profiles. 
+### Create a React client server for HTTP Requests to a Java API web server, in order to upload and download image files from an AWS S3 Bucket, corresponding specific user profiles. Update an in-memory database to collect all the files and profiles. 
 
 <br>
 
@@ -30,3 +30,4 @@
 |Version| Changes|
 |:---|:---|
 |Version 1.0.0 [2020-05-11]|<ul><li>Initial Commit.</li><li>Implement full stack/fully functional application.</li><li>Setup backend Data Access Layer, using in-memory DB, with a Data Access Service.</li><li>Setup complete backend Service Layer.</li><li>Setup API/Controller Layer, for interaction between frontend, backend and the data-store/service.</li><li>Setup client-side/frontend, to request against backend data-store and api.</li><li>Create README.md</li></ul>|
+|Version 1.0.1 [2020-05-12]|<ul><li>Minor Update.</li><li>Add screenshots.</li><li>Create README.md</li></ul>|

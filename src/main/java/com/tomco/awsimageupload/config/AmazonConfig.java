@@ -14,7 +14,7 @@ public class AmazonConfig {
 
     @Bean // Instantiate AmazonS3 class as a Bean. Provide correct credentials to build our S3 client, and access bucket.
     public AmazonS3 S3() {
-        AWSCredentials awsCredentials = new BasicAWSCredentials("ZKIAJSU3OTGJCVSAECB","JXemB1BsoVY4U0If4cIl3+f9LL5oHu8G8JOnTqL"); // Fake details - ammend to actual details
+        AWSCredentials awsCredentials = new BasicAWSCredentials("ZIAJSU3OTGJCVSAECBQ","JXemB1BsoVY4U0If4cIl3+f9LL5oHu8G8JOnTq"); // Fake details - ammend to actual details
         return AmazonS3ClientBuilder.standard()
                 .withRegion("eu-west-2")
                 .withCredentials(new AWSStaticCredentialsProvider(awsCredentials))
